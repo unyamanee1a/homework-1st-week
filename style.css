@@ -1,0 +1,30 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight:500;
+    font-style: normal;
+    background-color:#fbe9e0;
+    color: blueviolet;
+}
+
+h1 {
+    color: rgb(77, 26, 26);
+}
+
+h2 {
+    text-align: center;
+}
+
+.tiny {
+    font-size: 20px;
+    color: red;
+}
+
+.right {
+    text-align: right;
+}
+
+.head {
+    font-size: 50px;
+    text-align: center;
+}
