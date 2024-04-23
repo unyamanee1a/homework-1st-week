@@ -1,24 +1,49 @@
 body {
-    font-family: "Mitr", sans-serif;
-    font-weight: 200;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
     font-style: normal;
-    font-optical-sizing: auto;
     background-color: rgb(250, 250, 177);
-    font-size: 40px;
+    font-size: 65px;
     color: navy;
     list-style-position: inside;
 }
 .head {
     text-align: center;
-    font-size:80px;
     color: navy;
+    font-size: 100px;
+    font-family: "Noto Sans Thai", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+    margin-top: 200px;
 }
 
 .intro {
-    font-weight: 500;
+    font-weight: 400;
     margin: 100px 300px 0px 300px;
 }
 h1 {
     color: red;
     font-size: 200px;
+    margin: 0px 0px 0px 0px;
+}
+
+hr {
+    margin-top: 100px;
+}
+
+.quote {
+    color : red;
+    text-align: right;
+    font-family: "Catamaran", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    transform: scale(-1, -1);
+    font-size: 300px;
+    position: absolute;
+    margin-left: 250px;
+    margin-top: -300px;
+
 }
